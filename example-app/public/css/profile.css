@@ -1,0 +1,43 @@
+.imguser {
+    width: 100px; /* عرض الصورة */
+    height: auto; /* يمكن أن يتكيف الارتفاع تلقائيًا مع العرض */
+    }
+    .imguser {
+    border-radius: 30%; /* جعل حواف الصورة دائرية */
+    }
+    
+    
+    .imguser {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* إضافة ظل للصورة */
+    transition: transform 0.2s; 
+    padding: 10px;
+    
+    }
+    
+    img:hover {
+    transform: scale(1.05);
+    }
+ 
+ 
+   .button-profile {
+    background-color:rgb(47, 172, 172);
+    border-radius: 5px  ;
+    margin: 10px;
+    color: aqua;
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    position: absolute;
+   
+    
+    color: #fff;
+   
+   }
+   .button-profile:hover{
+    border: 2px solid transparent;
+    color: aqua;
+    transform: scale(1.05);
+    
+   }
